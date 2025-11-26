@@ -110,6 +110,10 @@ build/
 .ipynb_checkpoints/
 *.ipynb
 
+# Streamlit
+.streamlit/secrets.toml
+.streamlit/config.toml
+
 # ===================================
 # 🐳 컨테이너 관련
 # ===================================
@@ -159,6 +163,17 @@ temp/
 *.zip
 *.rar
 *.7z
+
+# 데이터베이스
+*.db
+*.sqlite
+*.sqlite3
+
+# API 키 및 설정 파일
+.anthropic
+anthropic_api_key.txt
+openai_api_key.txt
+api_keys.json
 
 # ===================================
 # ✅ 커밋해야 하는 파일들
